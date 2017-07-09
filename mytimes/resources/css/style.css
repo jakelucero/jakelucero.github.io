@@ -24,27 +24,36 @@
   padding-right: 10px;
 }
 #nav{
-  display:inline-block;
+  display: inline-block;
+  justify-content: flex-end;
 }
 #nav span{
   padding: 20px 10px;
+  margin-right: 80px;
 }
 a{
   color: black;
   text-align: right;
 }
-#container{
-  display: flex
+.content{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
 }
 .column.large{
-  display: flex;
   width: 630px;
+  display: inline-block;
+  justify-content: flex-start;
+  margin-top: 75px;
+  position: relative;
 }
 .column.medium{
-  display: flex;
   width: 300px;
 }
 .column.small{
-  display: flex;
   width: 240px;
+  }
+div{
+  border: 1px solid black;
 }
