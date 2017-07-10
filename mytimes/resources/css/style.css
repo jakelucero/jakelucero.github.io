@@ -35,6 +35,9 @@ a{
   color: black;
   text-align: right;
 }
+
+
+
 .content{
   display: inline-flex;
   justify-content: flex-start;
@@ -46,11 +49,11 @@ a{
 }
 .column.large{
   width: 630px;
-  display: inline-block;
-  justify-content: flex-start;
   margin-top: 75px;
   position: relative;
   margin-right: 32px;
+  display: flex;
+  flex-direction: column;
 }
 .column.medium{
   width: 300px;
@@ -62,9 +65,6 @@ a{
   margin-top: 75px;
   margin-right: 32px;
   }
-div{
-  border: 1px solid black;
-}
 h2{
   font-weight: bold;
 }
@@ -73,6 +73,7 @@ h2{
   font-weight: bold;
   font-size: 40px;
   color: white;
+  display: block;
 }
 .title1 .image{
   display: flex;
@@ -96,11 +97,28 @@ h3{
   font-size: 30px;
   color: white;
 }
-#story{
+.story{
+  display: flex;
+  flex-direction: column;
+}
+#text{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  font-weight: normal;
+}
+#narrartive{
   font-family: Georgia;
   font-size: 17px;
   color: black;
 }
 .image{
   height: 300px;
+}
+.stories{
+  display: flex;
+  justify-content: space-between;
+}
+.narratives{
+
 }
